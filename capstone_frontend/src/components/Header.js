@@ -1,13 +1,11 @@
 import React from "react";
 class Header extends React.Component {
   render() {
-    return (
-      //whatever you return, there must be one root element
-      //because when you render, you are rendering ONE element
+    return (    
       <header id="header">
         {" "}
         <h2 id="site-name">
-        Grammar Checker
+        Spell Checker
         </h2>
       </header>
     );
